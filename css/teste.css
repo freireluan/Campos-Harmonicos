@@ -1,0 +1,83 @@
+.testeHarmonico{
+    width:55%;
+    align-items: top;
+    margin: 1.5rem;
+    display: flex;
+}
+.formTesteHarmonico{
+    height: 30%;
+    
+}
+
+
+.textForm{
+    
+    padding-left: 0;
+}
+
+
+
+
+
+.formularioOpcoesdePersonalizaçaoDoTeste{
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    margin: 3px;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+}
+.botaoControle button{
+    border: 0;
+    background-color: darkorange;
+  
+}
+.botaoControle{
+    background-color: darkorange;
+}
+.botaoControle button:active, .play:active{
+    background-color: rgb(175, 124, 14);
+
+}
+.testeRodando{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#grauAcorde{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+#acordeDoGrau{
+    width: 40%;
+    height: 60%;
+}
+.confirmarCampo{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+
+
+
+
+
+@media (max-width: 1200px){
+    .testeHarmonico{
+        width: 90%;
+        flex-direction: column;
+        }
+        .formularioOpcoesdePersonalizaçaoDoTeste{
+            width: 90%;
+        }
+        .testeHarmonico{
+            width:100%;
+        }
+        .formTesteHarmonico {
+            width:100%;
+
+        }
+    }

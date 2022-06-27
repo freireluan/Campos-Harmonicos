@@ -1,0 +1,51 @@
+.tituloPrincipal{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+.conteudo{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ativa{
+    background-color: rgb(76, 46, 207);
+
+}
+.testeHarmonicodivAlinhamento{
+    display: flex;
+    
+}
+
+
+@media (max-width: 1200px){
+    .conteudo{
+        flex-direction: column-reverse;
+    }
+    
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
