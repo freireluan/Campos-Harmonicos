@@ -21,4 +21,5 @@ buttomTom.addEventListener("click", ()=>{
     tom = campoHarmonicoDe.value;
     mudaTitulo(tom)
     alteraImagnes(tom)
+    rodandoImagem(tom,0);
 });

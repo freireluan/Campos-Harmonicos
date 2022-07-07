@@ -49,7 +49,7 @@ function rodandoGrau(i){
 }
 
 function rodandoImagem(tom,i){
-    acordeDoNivel.setAttribute('src', `./imagens/${tom}/${i}.jpeg`);
+    acordeDoNivel.setAttribute('src', `./imagens/${tom}/${i}.png`);
 }
 
 function rodandoTeste(tom,i){
