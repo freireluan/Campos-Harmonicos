@@ -36,7 +36,12 @@ setTimeout(() => {
     
 }, 1);
 
-
-
-  
-
+setTimeout(() => {
+    if(largura < 800){
+       
+    }else{
+        menu.classList.add("form");
+        menu.classList.remove("menuDesativado")
+    }
+    
+}, 1);
