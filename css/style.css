@@ -2,6 +2,7 @@
     font-size: 2rem;
     text-align: center;
     font-weight: 400;
+   
 }
 .conteudo{
     display: flex;
@@ -17,6 +18,18 @@
 .testeHarmonicodivAlinhamento{
     display: flex;
     
+}
+.menu-titulo{
+    display: flex;
+    margin:1.3rem;
+}
+.menuAtivo{
+    display: flex;
+    opacity: 10;
+}
+.menuDesativado{
+    display: none;
+    opacity: 0;
 }
 
 

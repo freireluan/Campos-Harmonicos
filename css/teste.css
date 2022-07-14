@@ -59,6 +59,23 @@
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
 }
+.testeHarmonico-2{
+    display: none !important;
+}
+
+.formularioOpcoesdePersonalizaçaoDoTeste select{
+    margin: 7px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 
@@ -71,7 +88,7 @@
         flex-direction: column;
         }
         .formularioOpcoesdePersonalizaçaoDoTeste{
-            width: 90%;
+            width: 40%;
         }
         .testeHarmonico{
             width:100%;
@@ -84,4 +101,13 @@
             width: 40%;
             height: 60%;
         }
+        .botaoControle{
+            width: 40%;
+        }
     }
+    @media (max-width: 500px){
+        #acordeDoGrau{
+            width: 90%;
+            height: 70%;
+        }
+     }

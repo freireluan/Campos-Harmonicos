@@ -7,93 +7,146 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/CampoHarmonico.css">
     <link rel="stylesheet" href="./css/teste.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    
 </head>
-<body>
-    <h1 class="tituloPrincipal">Campos Harmonicos</h1>
+<body> 
+    <div class="menu-titulo">
+        <h1 class="tituloPrincipal">Campos Harmonicos</h1>
+        <div class="menu">
+            <div class="container">
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            </div>
+        </div>
+    </div>
+    
+  
     <div class="conteudo">
         <div class="CampoHarmonicoCompleto">
             <h2 class="CampoDe">Campo Harmonico de Dó-Maior</h2>
             <div class="imagensAcordesDiv">
                 <div class="imagemAcordeDiv">
                     
-                    <img src="./imagens/Dó-Maior/0.png" alt="Acorde do 1° Grau" class="imagemAcorde">
+                    <img src="./imagens/Dó-Maior/0.png" alt="Acorde de Dó Maior" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/1.png" alt="Acorde do 2° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/1.png" alt="Acorde de Ré Menor" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/2.png" alt="Acorde do 3° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/2.png" alt="Acorde de Mi Menor" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/3.png" alt="Acorde do 4° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/3.png" alt="Acorde de Lá Maior" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/4.png" alt="Acorde do 5° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/4.png" alt="Acorde de Sol Maior" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/5.png" alt="Acorde do 6° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/5.png" alt="Acorde de Lá Menor" class="imagemAcorde">
                 </div>
                 <div class="imagemAcordeDiv">
-                   <img src="./imagens/Dó-Maior/6.png" alt="Acorde do 7° Grau" class="imagemAcorde">
+                   <img src="./imagens/Dó-Maior/6.png" alt="Acorde de Si meio diminuto de 7ª" class="imagemAcorde">
                 </div>
             </div>
     
         </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+          
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
         <div class="testeHarmonico">
             <div class="testeHarmonicodivAlinhamento">
                 <div class="formTesteHarmonico">
-                    <div class="qualCampo formularioOpcoesdePersonalizaçaoDoTeste">
-                        <p class="textForm">Campo Harmonico</p>
-                        <select name="campo-Harmonico-de " id="campo-Harmonico-de">
-                            <option value="Dó-Maior"> Dó-Maior</option>
-                            <option value="Ré-Maior"> Ré-Maior</option>
-                            <option value="Mi-Maior"> Mi-Maior</option> 
-                            <option value="Fá-Maior"> Fá-Maior </option>
-                            <option value="Sol-Maior"> Sol-Maior</option>
-                            <option value="Lá-Maior"> Lá-Maior</option>
-                            <option value="Si-Maior"> Si-Maior</option>
-                        </select>
-                        
-                        <button class="confirmarCampo">Confirmar</button>
+                    <div class="form menuDesativado">
+                        <div class="qualCampo formularioOpcoesdePersonalizaçaoDoTeste">
+                            <p class="textForm">Campo Harmonico</p>
+                            <select name="campo-Harmonico-de " id="campo-Harmonico-de">
+                                <option value="Dó-Maior"> Dó-Maior</option>
+                                <option value="Ré-Maior"> Ré-Maior</option>
+                                <option value="Mi-Maior"> Mi-Maior</option> 
+                                <option value="Fá-Maior"> Fá-Maior </option>
+                                <option value="Sol-Maior"> Sol-Maior</option>
+                                <option value="Lá-Maior"> Lá-Maior</option>
+                                <option value="Si-Maior"> Si-Maior</option>
+                            </select>
+                            
+                            <button class="confirmarCampo">Confirmar</button>
+                        </div>
+                        <div class="vezeEmOrdem formularioOpcoesdePersonalizaçaoDoTeste">
+                            <p class="textForm">repetir em ordem</p>
+                            <select name="Quantas-vezes-repetir" id="Quantas-vezes-repetir" class="vezes">
+                                <option value="1">1 vezes</option>
+                                <option value="2">2 vezes</option>
+                                <option value="3">3 vezes</option>
+                                <option value="4">4 vezes</option>
+                                <option value="5">5 vezes</option>
+                                <option value="6">6 vezes</option>
+                                <option value="7">7 vezes</option>
+                                <option value="8">8 vezes</option>
+                                <option value="9">9 vezes</option>
+                                <option value="10">10 vezes</option>
+                                <option value="true">Sempre</option>
+                            </select>
+                        </div>
+                        <div class="tempodetroca formularioOpcoesdePersonalizaçaoDoTeste">
+                            <p class="textForm">Tempo entre os acordes</p>
+                            <select name="Tempo" id="Tempo">
+                                <option value="1">1 segundos</option>
+                                <option value="2">2 segundos</option>
+                                <option value="3">3 segundos</option>
+                                <option value="4">4 segundos</option>
+                                <option value="5">5 segundos</option>
+                                <option value="6">6 segundos</option>
+                                <option value="7">7 segundos</option>
+                                <option value="8">8 segundos</option>
+                                <option value="9">9 segundos</option>
+                                <option value="10">10 segundos</option>
+                            </select>
+                        </div> 
                     </div>
-                    <div class="vezeEmOrdem formularioOpcoesdePersonalizaçaoDoTeste">
-                        <p class="textForm">repetir em ordem</p>
-                        <select name="Quantas-vezes-repetir" id="Quantas-vezes-repetir" class="vezes">
-                            <option value="1">1 vezes</option>
-                            <option value="2">2 vezes</option>
-                            <option value="3">3 vezes</option>
-                            <option value="4">4 vezes</option>
-                            <option value="5">5 vezes</option>
-                            <option value="6">6 vezes</option>
-                            <option value="7">7 vezes</option>
-                            <option value="8">8 vezes</option>
-                            <option value="9">9 vezes</option>
-                            <option value="10">10 vezes</option>
-                            <option value="true">Sempre</option>
-                        </select>
-                    </div>
-                    <div class="tempodetroca formularioOpcoesdePersonalizaçaoDoTeste">
-                        <p class="textForm">Tempo entre os acordes</p>
-                        <select name="Tempo" id="Tempo">
-                            <option value="1">1 segundos</option>
-                            <option value="2">2 segundos</option>
-                            <option value="3">3 segundos</option>
-                            <option value="4">4 segundos</option>
-                            <option value="5">5 segundos</option>
-                            <option value="6">6 segundos</option>
-                            <option value="7">7 segundos</option>
-                            <option value="8">8 segundos</option>
-                            <option value="9">9 segundos</option>
-                            <option value="10">10 segundos</option>
-                        </select>
-                    </div>   
-                    <div class="play formularioOpcoesdePersonalizaçaoDoTeste botaoControle">
-                        <button>Começar Teste</button>
-                    </div> 
-                    <div class="pause formularioOpcoesdePersonalizaçaoDoTeste botaoControle">
-                        <button>Pausar Teste</button>
-                    </div>               
+                    
+                    <div class="botoes">
+                        <div class="play formularioOpcoesdePersonalizaçaoDoTeste botaoControle">
+                            <button>Começar Teste</button>
+                        </div> 
+                        <div class="pause formularioOpcoesdePersonalizaçaoDoTeste botaoControle">
+                            <button>Pausar Teste</button>
+                        </div>     
+                    </div>  
+                              
                 </div>
             </div>
 
@@ -120,6 +173,8 @@
         </script><script src="./js/Teste/RodandoTeste.js"></script>
         <script src="./js/Teste/Teste.js"></script>
         <script src="./js/main.js"></script>
+        <script src="./js/menu.js"></script>
+       
     </div>
           
    

@@ -26,8 +26,10 @@
     .CampoHarmonicoCompleto{
         width: 90%;
     }
-    .imagemAcorde{
-      width:14rem;
-    
-    }
+}
+
+@media (max-width: 500px){
+   .imagemAcorde{
+    width: 95%;
+   }
 }
