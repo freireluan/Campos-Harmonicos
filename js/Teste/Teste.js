@@ -47,7 +47,7 @@ function rodaTeste (){
     if(troca = true){
         if (contador < 7) {
             if(contador < 7){
-                if(contadorDeRepeticoes < RepeticoesDesejadas){
+                if(contadorDeRepeticoes < RepeticoesDesejadas || RepeticoesDesejadas === "Sempre"){
                     rodandoTeste(tom, contador);
                     destacaAcordeAtivo(contador);
                 }else{
