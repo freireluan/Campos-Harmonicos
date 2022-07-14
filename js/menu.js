@@ -37,7 +37,7 @@ setTimeout(() => {
 }, 1);
 
 setTimeout(() => {
-    if(largura < 800){
+    if(largura < 1200){
        
     }else{
         menu.classList.add("form");
