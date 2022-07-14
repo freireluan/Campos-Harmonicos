@@ -35,16 +35,7 @@ setTimeout(() => {
     }
     
 }, 1);
-setInterval(() => {
-    largura = window. screen. width;
-   if(largura > 800) {
-    menu.classList.add("form");
-    menu.classList.remove("menuDesativado");
-   }else if(largura <=  800){
-    menu.classList.remove("form");
-    menu.classList.add("menuDesativado")
-   }
-},3);
+
 
 
 
