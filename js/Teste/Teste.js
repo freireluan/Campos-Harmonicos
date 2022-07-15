@@ -47,10 +47,15 @@ function rodaTeste (){
     if(troca = true){
         if (contador < 7) {
             if(contador < 7){
-                if(contadorDeRepeticoes < RepeticoesDesejadas || RepeticoesDesejadas === "Sempre"){
+                if(RepeticoesDesejadas == "Sempre"){
+                    rodandoTeste(tom, contador);
+                    destacaAcordeAtivo(contador);
+                 }else{
+                      if(contadorDeRepeticoes < RepeticoesDesejadas){
                     rodandoTeste(tom, contador);
                     destacaAcordeAtivo(contador);
                 }else{
+                    rodandoTeste(tom, contador);
                     if(contadorDeRepeticoes >= RepeticoesDesejadas){
                         let i = geraNumeroAleatorio(0,6);
                         rodandoTeste(tom, i);
@@ -59,6 +64,11 @@ function rodaTeste (){
                     }
                 }
             }
+                 }
+                
+
+
+
             if(contador == 6){
                contador = contador - 7;
                contadorDeRepeticoes = contadorDeRepeticoes + 1;
