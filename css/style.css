@@ -41,6 +41,12 @@
 
  }
 
+@media (max-width: 1200px){
+   html{
+      width:93%;
+   }
+}
+
 
 
 
